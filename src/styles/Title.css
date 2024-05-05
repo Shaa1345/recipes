@@ -1,0 +1,9 @@
+.Title{
+    display: 'flex';
+    text-align: center;
+    width: 40vw;
+    height: 5vh;
+    font-size: min(38vw,4vh);
+    border-radius: 40px;
+    border-style: solid;
+}

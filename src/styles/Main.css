@@ -1,0 +1,15 @@
+body{
+    background-color: #AFCCF6;
+}
+
+.Add_Buttons {
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+}
+  
+#Title{
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    margin: -5vh;
+}
