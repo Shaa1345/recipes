@@ -1,9 +1,10 @@
 .Title{
     display: 'flex';
     text-align: center;
-    width: 40vw;
-    height: 5vh;
-    font-size: min(38vw,4vh);
+    width: 50%;
+    min-width: 20rem;
+    height: 3rem;
+    font-size: 2rem;
     border-radius: 40px;
     border-style: solid;
 }

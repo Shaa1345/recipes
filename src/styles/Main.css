@@ -8,8 +8,7 @@ body{
 }
   
 #Title{
-    padding-top: 5vh;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
-    margin: -5vh;
 }

@@ -6,7 +6,7 @@ import React from 'react'
 function Main() {
   return (
     <div>
-        <div class = 'Add_Buttons'>
+        <div className = 'Add_Buttons'>
             <div id = "Add_Book">
                 <AddBookBut/>
             </div>
