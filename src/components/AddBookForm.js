@@ -1,8 +1,9 @@
 import React from 'react'
 
-function AddBookForm() {
+function AddBookForm({onClose}) {
+    
   return (
-    <div>
+    <div onClick = {onClose}>
       hai
     </div>
   )

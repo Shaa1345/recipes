@@ -1,5 +1,6 @@
 body{
     background-color: #AFCCF6;
+    margin: 0;
 }
 
 .Add_Buttons {
@@ -8,7 +9,6 @@ body{
 }
   
 #Title{
-    margin-top: 1rem;
     display: flex;
     justify-content: center;
 }

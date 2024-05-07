@@ -16,7 +16,7 @@ function AddBookButton() {
       <button onClick={togglePopup} className="AddBookButton">
         + Book
       </button>
-      {isPopupOpen && <BookForm />}
+      {isPopupOpen && <BookForm onClose={() => setIsPopupOpen(false)} />}
     </div>
   );
 }
