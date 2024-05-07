@@ -1,12 +1,24 @@
-import React from 'react'
-import '../styles/AddBookButton.css'
+import React from "react";
+import { useState } from "react";
+import BookForm from "../components/AddBookForm.js";
+import "../styles/AddBookButton.css";
 
 function AddBookButton() {
+  //pop up function
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const togglePopup = () => {
+    setIsPopupOpen(!isPopupOpen);
+  };
+
   return (
-    <div className="AddBookButton">
-      + Book
+    <div>
+      <button onClick={togglePopup} className="AddBookButton">
+        + Book
+      </button>
+      {isPopupOpen && <BookForm />}
     </div>
-  )
+  );
 }
 
-export default AddBookButton
+export default AddBookButton;
