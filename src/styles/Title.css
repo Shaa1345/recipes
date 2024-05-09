@@ -1,5 +1,5 @@
 .Title{
-    display: 'flex';
+    position: relative;
     text-align: center;
     width: 50%;
     min-width: 20rem;
@@ -7,4 +7,5 @@
     font-size: 2rem;
     border-radius: 40px;
     border-style: solid;
+    z-index: 1;
 }
