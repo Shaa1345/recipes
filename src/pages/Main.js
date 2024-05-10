@@ -2,14 +2,17 @@ import "../styles/Main.css";
 import Title from "../components/Title";
 import AddBookBut from "../components/AddBookButton";
 import React from "react";
+import { useState } from "react";
+import BookForm from "../components/AddBookForm.js";
 
 function Main() {
-    
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
   return (
     <div>
       <div className="Add_Buttons">
         <div id="Add_Book">
-          <AddBookBut/>
+          <AddBookBut togglePopup={() => setIsPopupOpen(true)}/>
         </div>
       </div>
       <div id="Title">
@@ -19,6 +22,7 @@ function Main() {
           text="Recipe Books"
           border_color="#196C4E"
         />
+        {isPopupOpen && <BookForm onClose={() => setIsPopupOpen(false)} />}
       </div>
       
     </div>

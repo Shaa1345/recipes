@@ -1,5 +1,4 @@
 .Title{
-    position: relative;
     text-align: center;
     width: 50%;
     min-width: 20rem;
@@ -8,4 +7,6 @@
     border-radius: 40px;
     border-style: solid;
     z-index: 1;
+    display: flex;
+    justify-content: center;
 }
