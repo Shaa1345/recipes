@@ -1,0 +1,13 @@
+.RecipeGrid{
+    text-align: center;
+    margin-top: 2rem;
+    width: 80rem;
+    min-width: 20rem;
+    height: 30rem;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    border-color:#228f80;
+    background-color: #a8f0e6;
+    
+}

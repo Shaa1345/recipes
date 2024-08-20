@@ -11,7 +11,7 @@ function AddBookForm({ onClose }) {
       </div>
       <div className = "BookFormContent">
         <label htmlFor="BookName">
-            Book Name
+            Recipe Name
         </label>
         <input
           type="text"

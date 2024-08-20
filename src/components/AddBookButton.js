@@ -6,7 +6,7 @@ function AddBookButton({togglePopup}) {
   return (
     <div>
       <button onClick={togglePopup} className="AddBookButton">
-        + Book
+        + Recipe
       </button>
     </div>
   );

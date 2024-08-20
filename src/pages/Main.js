@@ -1,6 +1,8 @@
 import "../styles/Main.css";
 import Title from "../components/Title";
 import AddBookBut from "../components/AddBookButton";
+import DemoBut from "../components/RecipeBoxDemoButton";
+import RecipeGrid from "../components/RecipeGrid";
 import React from "react";
 import { useState } from "react";
 import BookForm from "../components/AddBookForm.js";
@@ -12,7 +14,10 @@ function Main() {
     <div>
       <div className="Add_Buttons">
         <div id="Add_Book">
-          <AddBookBut togglePopup={() => setIsPopupOpen(true)}/>
+          <AddBookBut togglePopup={() => setIsPopupOpen(true)} />
+        </div>
+        <div id="Demo_Button">
+            <DemoBut />
         </div>
       </div>
       <div id="Title">
@@ -24,7 +29,9 @@ function Main() {
         />
         {isPopupOpen && <BookForm onClose={() => setIsPopupOpen(false)} />}
       </div>
-      
+      <div id = "Recipe_Grid">
+        <RecipeGrid/>
+      </div>
     </div>
   );
 }
