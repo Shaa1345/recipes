@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/AddRecipeBoxButton.css";
 
-function RecipeBoxDemoButton() {
+function RecipeBoxDemoButton({togglePopup}) {
 
     return (
       <div>
-        <button className="AddBookButton">
+        <button onClick={togglePopup} className="AddBookButton">
           + Box
         </button>
       </div>

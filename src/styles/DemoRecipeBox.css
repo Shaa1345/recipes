@@ -1,0 +1,31 @@
+.DemoRecipeBox{
+    position: absolute;
+    margin-top: 5rem;
+    z-index: 2;
+    background-color: #c0f0c1;
+    border-color: #8fcc91;
+    border-style: solid;
+    border-radius: 10px;
+    width: 10rem;
+    padding: 1%;
+    justify-content: center;
+    color: #5b785c;
+}
+
+.CloseBoxBar{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+}
+
+#CloseBoxBut{
+    background-color: transparent;
+}
+
+.RecipeBoxContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
